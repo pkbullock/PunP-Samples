@@ -26,7 +26,7 @@ function loadSample(sample, filter) {
       <img src="${thumbnail}" loading="lazy" alt="${title}">
     </div>
     <div class="sample-details">
-      <p class="sample-title" title="${sample.title}">${sample.title}</p>
+      <p class="sample-title">${sample.title}</p>
       <br />
       <div class="sample-activity">
         <div class="author-avatar">

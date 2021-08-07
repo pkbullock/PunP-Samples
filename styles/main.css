@@ -817,3 +817,8 @@ p.sample-title {
 .cmd-help{
   border-bottom: 1px dotted var(--highlight-dark);;
 }
+
+.sample-preview{
+  background: rgb(52,44,144);
+  background: linear-gradient(150deg, rgba(52,44,144,1) 26%, rgba(181,54,84,1) 100%);
+}
