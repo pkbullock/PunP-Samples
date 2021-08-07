@@ -918,11 +918,11 @@ TODO: Move styles
     padding-right: 0;
     padding-left: 0;
     text-align: left;
-    display: flex;
+    display: table-row;
     vertical-align: bottom;
-    position: absolute;
+    /* position: absolute;
     bottom: -55px;
-    left: 0;
+    left: 0; */
 }
 
 .sample-description {
