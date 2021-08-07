@@ -1,7 +1,7 @@
 /**
  * This file is unique for each sample browser. It contains the logic specific to each repo for loading the samples as needed.
  */
-var baseAddress = (document.location.host === "pkbullock.github.io") ?  document.location.origin + "/punp-samples" : document.location.origin;
+var baseAddress = (document.location.host === "pkbullock.github.io") ?  document.location.origin + "/PunP-Samples" : document.location.origin;
 var jsonPath = baseAddress +"/assets/samples.json";
 
 /**
