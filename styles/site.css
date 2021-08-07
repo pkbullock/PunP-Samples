@@ -1,0 +1,92 @@
+
+.sampletype-item.sharepoint {
+    background-image: url(../assets/icons/sharepoint.svg);
+}
+
+/* card circle */
+.sample-details .producttype-item.sharepoint {
+    background-image: url(../assets/icons/sharepoint.svg);
+}
+
+.sample-details .producttype-item.teams {
+    background-image: url(../assets/icons/teams.svg);
+}
+
+.sample-details .producttype-item.graph-powershell,
+.sample-details .producttype-item.graph {
+    background-image: url(../assets/icons/custom/graph.svg);
+}
+
+
+.sample-details .producttype-item.pnp-powershell {
+    background-image: url(../assets/icons/custom/pnp-ps.svg);
+}
+
+.sample-details .producttype-item.cli-for-microsoft365 {
+    background-image: url(../assets/icons/custom/pnp-cli.svg);
+}
+
+.sample-details .producttype-item.powershell {
+    background-image: url(../assets/icons/custom/powershell.svg);
+}
+
+.sample-details .producttype-item.spo-management-shell {
+    background-image: url(../assets/icons/custom/sharepoint.svg);
+}
+
+/* Data driven backgrounds */
+.sample-thumbnail[data-products^="sharepoint"] .sample-preview{
+    background-image: url(../assets/icons/custom/sharepoint.svg);
+    background-size: 500px;
+    background-position: -110px -110px;
+    background-repeat: no-repeat;
+}
+
+.sample-thumbnail[data-products^="teams"] .sample-preview{
+    background-image: url(../assets/icons/custom/teams.svg);
+    background-size: 500px;
+    background-position: -110px -110px;
+    background-repeat: no-repeat;
+}
+
+.sample-thumbnail[data-products^="graph"] .sample-preview {
+    background-image: url(../assets/icons/custom/graph.svg);
+    background-size: 300px;
+    background-position: -73px -27px;
+    background-repeat: no-repeat;
+}
+
+.sample-thumbnail[data-products^="azure ad"] .sample-preview,
+.sample-thumbnail[data-products^="azuread"] .sample-preview {
+    background-image: url(../assets/icons/custom/aad.svg);
+    background-size: 300px;
+    background-position: -82px -14px;
+    background-repeat: no-repeat;
+}
+
+.sample-thumbnail[data-products^="power automate"] .sample-preview,
+.sample-thumbnail[data-products^="powerautomate"] .sample-preview {
+    
+    background-image: url(../assets/icons/custom/powerautomate.svg);
+    background-size: 311px;
+    background-position: -76px -32px;
+    background-repeat: no-repeat;
+}
+
+.sample-thumbnail[data-products^="office"] .sample-preview {
+    background-image: url(../assets/icons/custom/office.svg);
+    background-size: 400px;
+    background-position: -51px -77px;
+    background-repeat: no-repeat;
+}
+
+.sample-thumbnail[data-products^="microsoft todo"] .sample-preview, 
+.sample-thumbnail[data-products^="microsoft to do"] .sample-preview, 
+.sample-thumbnail[data-products^="todo"] .sample-preview {
+    background-image: url(../assets/icons/custom/todo.svg);
+    background-size: 350px;
+    background-position: -73px -24px;
+    background-repeat: no-repeat;
+}
+
+/* //Data driven backgrounds */
